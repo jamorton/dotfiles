@@ -14,3 +14,4 @@ fi
 
 chmod -R +x ~/bin
 chmod +x ~/.osx
+cp -f ~/.zshprompt ~/.zprezto/modules/prompt/functions/prompt_jamorton_setup

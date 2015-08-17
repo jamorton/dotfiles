@@ -1,6 +1,8 @@
 (source gnu)
 (source melpa)
 
+(depends-on "projectile")
+(depends-on "better-defaults")
 (depends-on "cask")
 (depends-on "clojure-mode")
 (depends-on "paredit")

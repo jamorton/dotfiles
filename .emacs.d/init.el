@@ -3,7 +3,5 @@
 
 (require 'cask)
 (cask-initialize)
-(require 'pallet)
-(pallet-mode t)
 
 (mapc 'load (directory-files "~/.emacs.d/customizations" t "\.el$"))

@@ -1,0 +1,8 @@
+[ui]
+username = Jon Morton <jonanin@gmail.com>
+editor = emacs
+
+[diff]
+git = 1
+showfunc = 1
+unified = 8

@@ -1,0 +1,7 @@
+[user]
+	name = Jon Morton
+	email = jonanin@gmail.com
+[core]
+	editor = pico
+[push]
+	default = simple

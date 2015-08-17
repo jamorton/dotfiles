@@ -125,7 +125,7 @@ function prompt_jamorton_setup {
     'status' '$(coalesce "%b" "%p" "%c")%s%A%B%S%a%d%m%r%U%u'
 
   # Define prompts.
-  PROMPT='${SSH_TTY:+"%F{9}%n%f%F{7}@%f%F{3}%m%f "}%B%F{red}➜%f%b %B%F{cyan}${_prompt_jamorton_pwd}%f%b '
+  PROMPT='${SSH_TTY:+"%F{9}%n%f%F{7}@%f%F{3}%m%f "}%B%F{red}➜%f%b  %B%F{cyan}${_prompt_jamorton_pwd}%f%b '
   RPROMPT=''
   SPROMPT='zsh: correct %F{1}%R%f to %F{2}%r%f [nyae]? '
 }

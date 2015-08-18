@@ -7,4 +7,5 @@
  '(x-select-enable-clipboard t)
  '(inhibit-splash-screen t)
  '(inhibit-startup-message t)
- '(require-final-newline t))
+ '(require-final-newline t)
+ '(projectile-global-mode t))

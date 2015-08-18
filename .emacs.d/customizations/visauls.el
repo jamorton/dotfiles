@@ -1,6 +1,8 @@
 
 (setq visible-bell nil)
 
-(set-default-font "Source Code Pro Light 12")
+(set-face-attribute 'default nil
+                    :family "Source Code Pro"
+                    :height 120)
 
 (load-theme 'zenburn t)

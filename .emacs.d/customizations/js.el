@@ -7,8 +7,3 @@
 ;; Let flycheck handle parse errors
 (setq-default js2-show-parse-errors nil)
 (setq-default js2-strict-trailing-comma-warning nil)
-
-;; disable jshint since we prefer eslint checking
-(setq-default flycheck-disabled-checkers
-  (append flycheck-disabled-checkers
-    '(javascript-jshint)))

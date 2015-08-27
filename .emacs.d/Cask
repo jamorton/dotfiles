@@ -1,6 +1,7 @@
 (source gnu)
 (source melpa)
 
+(depends-on "web-mode")
 (depends-on "projectile")
 (depends-on "better-defaults")
 (depends-on "cask")

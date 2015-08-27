@@ -9,4 +9,5 @@
 
 (add-hook 'web-mode-hook  'my-web-mode-hook)
 
-(flycheck-add-mode 'javascript-eslint 'web-mode)
+(eval-after-load 'flycheck
+  '(flycheck-add-mode 'javascript-eslint 'web-mode))

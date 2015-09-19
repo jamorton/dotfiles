@@ -6,4 +6,4 @@
 
 ;; Let flycheck handle parse errors
 (setq-default js2-show-parse-errors nil)
-(setq-default js2-strict-trailing-comma-warning nil)
+(setq-default js2-mode-show-strict-warnings nil)

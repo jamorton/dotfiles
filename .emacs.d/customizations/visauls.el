@@ -6,3 +6,6 @@
                     :height 120)
 
 (load-theme 'zenburn t)
+
+;; Show column numbers
+(setq column-number-mode t)
